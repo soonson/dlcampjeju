@@ -1,0 +1,37 @@
+$gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
+
+.hero {
+  background: $gradient-dark, url(/assets/images/hero_bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__heading {
+  font-size: modular-scale(6);
+}
+
+.hero__dates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1100px;
+  position: absolute;
+  bottom: 5rem;
+}
+
+.hero__dates__title {
+  font-size: modular-scale(7);
+}
+
+.hero__dates__label {
+  text-align: center;
+}

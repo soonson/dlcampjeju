@@ -1,0 +1,29 @@
+@import "navbar";
+@import "hero";
+@import "footer";
+@import "contact";
+
+.container {
+  h1 {
+    text-align: center;
+
+    &:after {
+      content: ' ';
+      border-bottom: 3px solid black;
+      width: 10%;
+      display: block;
+      margin: 1em auto;
+    }
+
+    &:before {
+      content: ' ';
+      display: block;
+      margin-top: 1.5em;
+    }
+  }
+
+  h2, li {
+    margin-bottom: 1.44em;
+  }
+
+}

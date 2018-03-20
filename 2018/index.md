@@ -3,6 +3,7 @@ layout: default
 title: 2018
 ---
 
+# Information
 **Deep Learning Camp Jeju**
 is an annual camp held at [Jeju Island, South Korea](https://en.wikipedia.org/wiki/Jeju_Island),
 which was [first launched in 2017](../2017/) with 20 participants from all over the world.
@@ -16,7 +17,7 @@ that come from various backgrounds but all interested in practicing and advancin
 
 ## Why should I apply?
 
-- You will have one whole month at Jeju to focus on a deep learning based project, surrounded with top class fellow researchers/developers
+- You will have **one whole month** at Jeju to focus on a deep learning based project, surrounded with top class fellow researchers/developers
 - You will be team up with wonderful mentors, that will help you progress your project
 - You will be provided full accommodation support, **1,000 USD stipend**, and up to **300 USD** support for flights to Jeju
 - You will be also provided **1,000 USD worth of Google Cloud credits**
@@ -39,7 +40,7 @@ that come from various backgrounds but all interested in practicing and advancin
 - Jeju is a beautiful island, frequently referred to as the "Hawaii" in Asia
 
 
-# Applications
+# Application
 
 ## Requirements
 
@@ -54,7 +55,7 @@ that come from various backgrounds but all interested in practicing and advancin
 (Meanwhile, we recommend you start writing a brief introduction of what you'd like to work on!)
 
 
-# Important dates
+# Important Dates
 
 | Date | Description |
 | --- | --- |
