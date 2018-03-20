@@ -1,5 +1,8 @@
 ---
 ---
+
+$bg-hero: url('{{ site.baseurl }}/assets/images/hero_bg.jpg');
+
 @import "bourbon/bourbon";
 @import "variables";
 @import "layouts/base";

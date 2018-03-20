@@ -1,7 +1,7 @@
 $gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
 
 .hero {
-  background: $gradient-dark, url(/assets/images/hero_bg.jpg);
+  background: $gradient-dark, $bg-hero;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
