@@ -25,11 +25,15 @@ $gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
   width: 100%;
   max-width: 1100px;
   position: absolute;
-  bottom: 5rem;
+  bottom: 2rem;
 }
 
 .hero__dates__title {
-  font-size: modular-scale(7);
+  font-size: modular-scale(4);
+
+  @include respond-to('small') {
+    font-size: modular-scale(7);
+  }
 }
 
 .hero__dates__label {
