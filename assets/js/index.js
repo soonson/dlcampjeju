@@ -1,5 +1,5 @@
 $(function() {
-  const campBeginDate = new Date(2018, 07, 02);
+  const campBeginDate = new Date(2018, 6, 2);
 
   initTimer(campBeginDate);
   initSmoothScroll();
