@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2018
+title: Deep Learning Camp Jeju 2018
 ---
 
 # Information
@@ -68,7 +68,10 @@ that come from various backgrounds but all interested in practicing and advancin
 
 # Sponsors
 
-<p class="display-4 text-center mb-5">We are looking for sponsors!</p>
+<div class="text-center">
+<p>We are looking for sponsors!</p>
+<p>Please check <a href="https://www.facebook.com/groups/TensorFlowKR/permalink/609123856095343/" target="_blank">this link</a> if you want to be a sponsor.</p>
+</div>
 
 ## Platinum (~30,000 USD)
 

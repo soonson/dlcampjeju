@@ -1,11 +1,16 @@
 $white: #fff;
 $bg-footer: #333;
 
+
+$bp-small: 576px;
+$bp-medium: 768px;
+$bp-large: 992px;
+$bp-xlarge: 1200px;
 $breakpoints: (
-  'small':  576px,
-  'medium': 768px,
-  'large':  992px,
-  'xlarge': 1200px
+  'small':  $bp-small,
+  'medium': $bp-medium,
+  'large':  $bp-large,
+  'xlarge': $bp-xlarge
 );
 
 /// Mixin to manage responsive breakpoints
@@ -27,3 +32,8 @@ $breakpoints: (
     + "Available breakpoints are: #{map-keys($breakpoints)}.";
   }
 }
+
+
+$bourbon: (
+  "modular-scale-ratio": 1.25,
+);
