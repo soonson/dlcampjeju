@@ -11,10 +11,9 @@ which was [first launched in 2017](../2017/) with 20 participants from all over 
 This year, it will be again be hosting 20-30 participants,
 that come from various backgrounds but all interested in practicing and advancing deep learning.
 
-<center>
-<img src="{{ site.baseurl }}/assets/images/jeju.png">
-</center>
-
+<div class="text-center mb-5">
+<img src="{{ '/assets/images/jeju.png' | absolute_url }}"/>
+</div>
 
 ## Why should I apply?
 
@@ -66,6 +65,30 @@ that come from various backgrounds but all interested in practicing and advancin
 | 2018-07-02 (Mon) | Gather at Jeju |
 | 2018-07-31 (Tue) | Presentation day! |
 
+
+# Sponsors
+
+<p class="display-4 text-center mb-5">We are looking for sponsors!</p>
+
+## Platinum (~30,000 USD)
+
+<div class="d-grid">
+  <div class="text-center sponsor__container">
+    <img class="sponsor" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+  </div>
+  <div class="text-center sponsor__container">
+    <img class="sponsor" src="{{ '/assets/images/sponsors/kakao_brain.png' | absolute_url }}" />
+  </div>
+  <div class="text-center sponsor__container">
+    <img class="sponsor" src="http://www.netmarble.com/resources/img/ko/company/ci1.jpg" />
+  </div>
+</div>
+
+## Gold (~20,000 USD)
+
+## Silver (~10,000 USD)
+
+## Bronze (~5,000 USD)
 
 # FAQ
 

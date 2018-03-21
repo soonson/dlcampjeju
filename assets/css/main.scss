@@ -1,9 +1,9 @@
 ---
 ---
-
-$bg-hero: url('{{ site.baseurl }}/assets/images/hero_bg.jpg');
+$bg-hero: url("{{ '/assets/images/hero_bg.jpg' | absolute_url }}");
 
 @import "bourbon/bourbon";
 @import "variables";
 @import "layouts/base";
 @import "elements/button";
+@import "elements/sponsor";

@@ -6,23 +6,8 @@ $(function() {
   fixTable();
   initTopButton();
 
-  $("#contact-form").submit(function(event) {
-    event.preventDefault();
-    const data = $(this).serializeArray();
-    const email = data[0];
-    const content = data[1];
-    const subject = "DEEP LEARNING CAMP JEJU";
-    window.location =
-      "mailto:" +
-      email.value +
-      "?subject=" +
-      subject +
-      "&body=" +
-      content.value;
-  });
-
   $(".navbar-toggler").click(function() {
-    const height = $(".navbar-collapse").height();
+    const height = $(".navbar-collapse").height() * 1.5;
     const hero = $(".hero");
     const heroDates = $(".hero__dates");
 
@@ -32,10 +17,9 @@ $(function() {
       heroDates.fadeIn();
     } else {
       // opening navbar
-      hero.animate({ paddingTop: 2 * height });
+      hero.animate({ paddingTop: height });
       heroDates.fadeOut();
     }
-    console.log($(".hero").css("padding-top"));
   });
 });
 
