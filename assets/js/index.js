@@ -20,6 +20,8 @@ $(function() {
       "&body=" +
       content.value;
   });
+
+  $(".navbar-toggler").click(function() {});
 });
 
 function getDaysHoursSeconds(dDate) {
