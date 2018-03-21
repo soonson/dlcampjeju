@@ -21,7 +21,22 @@ $(function() {
       content.value;
   });
 
-  $(".navbar-toggler").click(function() {});
+  $(".navbar-toggler").click(function() {
+    const height = $(".navbar-collapse").height();
+    const hero = $(".hero");
+    const heroDates = $(".hero__dates");
+
+    if (parseInt(hero.css("padding-top"), 10) > 0) {
+      // closing navbar
+      hero.animate({ paddingTop: 0 });
+      heroDates.fadeIn();
+    } else {
+      // opening navbar
+      hero.animate({ paddingTop: 2 * height });
+      heroDates.fadeOut();
+    }
+    console.log($(".hero").css("padding-top"));
+  });
 });
 
 function getDaysHoursSeconds(dDate) {

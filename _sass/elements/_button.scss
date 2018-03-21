@@ -7,7 +7,7 @@
   width: 3rem;
   height: 3rem;
 
-  @include respond-to('small') {
+  @include respond-to('large') {
     right: 5rem;
     bottom: 5rem;
   }

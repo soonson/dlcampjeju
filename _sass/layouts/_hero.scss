@@ -16,6 +16,10 @@ $gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
 
 .hero__heading {
   font-size: modular-scale(6);
+  @media (min-width: '576px') and (orientation: landscape) {
+    font-size: modular-scale(5);
+    margin-bottom: 5rem;
+  }
 }
 
 .hero__dates {
@@ -26,6 +30,7 @@ $gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
   max-width: 1100px;
   position: absolute;
   bottom: 2rem;
+
 }
 
 .hero__dates__title {
@@ -35,6 +40,7 @@ $gradient-dark: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .3));
     font-size: modular-scale(7);
   }
 }
+
 
 .hero__dates__label {
   text-align: center;
