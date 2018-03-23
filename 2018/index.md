@@ -104,12 +104,12 @@ that come from various backgrounds but all interested in practicing and advancin
 1. Will datasets be provided?
     - No, the participant should prepare their own datasets.
 1. Can we just implement previously existing models, or should we have new ideas?
-    - It's okay to just do an implemention of a model, but it is definitely preferred to have an idea to improve that model, or build a real-life application using it.
+    - It's okay to just do an implementation of a model, but it is definitely preferred to have an idea to improve that model or build a real-life application using it.
 1. Am I allowed to bring a partner?
-    - Unfortunately we only provide accommodations for the participants. You can book your own accommodations if you wish to stay with your partner during the camp.
-1. Are there restrictions to licenses of the to-be-released open source code?
-    - An MIT licence is recommended, but can be changed with your mentor's consent.
-1. Are there restrictions to authorship of the to-be-released technical paper?
-    - The paper should include you and your mentor, but can be extended with your mentor's consent.
+    - Unfortunately, we only provide accommodations for the participants. You can book your own accommodations if you wish to stay with your partner during the camp.
+1. Are there restrictions on licenses of the to-be-released open source code?
+    - An MIT license is recommended but can be changed with your mentor's consent.
+1. Are there restrictions on the authorship of the to-be-released technical paper?
+    - The paper should include you and your mentor but can be extended with your mentor's consent.
 1. How does the mentoring work?
-    - Most mentors are machine learning and/or deep learning experts, that have a full-time job. This means they will not be on-site most of the time, but are very enthusiatic to help you out! So please actively ask questions and start discussions with them.
+    - Most mentors are machine learning and/or deep learning experts, that have a full-time job. This means they will not be on-site most of the time but are very enthusiastic to help you out! So please actively ask questions and start discussions with them.
