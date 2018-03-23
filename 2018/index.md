@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Deep Learning Camp Jeju 2018
 ---
 
