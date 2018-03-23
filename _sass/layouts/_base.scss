@@ -1,7 +1,10 @@
+// This file imports style files for the sections used in base.html and index.html
 @import "navbar";
 @import "hero";
 @import "footer";
+@import "sponsor";
 
+// this is for typography
 .container {
   h1 {
     text-align: center;
