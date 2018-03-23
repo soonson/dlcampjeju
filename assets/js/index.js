@@ -3,8 +3,12 @@
  * @name index.js
  */
 $(function() {
-  // Camp begin date: 2018 July 2nd
-  const campBeginDate = new Date(2018, 6, 2);
+  // Camp Begin Date
+  const campBeginDate = new Date("Mon, 2 July 2018 08:00:00 +0900");
+  const message =
+    "FYI, the camp will begin " + campBeginDate + " at your timezone";
+  console.log(message);
+
   // tick down the hero timer
   initTimer(campBeginDate);
   // smooth scroll link
