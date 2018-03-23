@@ -1,11 +1,21 @@
+/**
+ * @fileOverview JavaScript for index.html (animation + countdown timer)
+ * @name index.js
+ */
 $(function() {
+  // Camp begin date: 2018 July 2nd
   const campBeginDate = new Date(2018, 6, 2);
-
+  // tick down the hero timer
   initTimer(campBeginDate);
+  // smooth scroll link
   initSmoothScroll();
+  // add bootstrap class for markdown table
   fixTable();
+  // show/hide scroll to top button
   initTopButton();
 
+  // when navigation expand button clicks on mobile screen
+  // it should push down the hero image because navigation's position is absolute
   $(".navbar-toggler").click(function() {
     const height = $(".navbar-collapse").height() * 1.5;
     const hero = $(".hero");
@@ -23,6 +33,11 @@ $(function() {
   });
 });
 
+/**
+ * Returns how many days/hours/minutes/seconds until dDate
+ * @param {Date} dDate d-day Date object
+ * @returns {Array<number>} [days, hours, minutes, seconds]
+ */
 function getDaysHoursSeconds(dDate) {
   // get total seconds between the times
   var delta = Math.abs(dDate - new Date()) / 1000;
@@ -45,6 +60,10 @@ function getDaysHoursSeconds(dDate) {
   return [days, hours, minutes, seconds];
 }
 
+/**
+ * Initialize the timer and count it down by 1 second
+ * @param {Date} campBeginDate Camp Begin Date object
+ */
 function initTimer(campBeginDate) {
   setInterval(function() {
     const dateInfo = getDaysHoursSeconds(campBeginDate);
@@ -56,6 +75,9 @@ function initTimer(campBeginDate) {
   }, 1000);
 }
 
+/**
+ * Initialize smooth scrolling using jQuery
+ */
 function initSmoothScroll() {
   // Select all links with hashes
   $('a[href*="#"]')
@@ -99,12 +121,18 @@ function initSmoothScroll() {
     });
 }
 
+/**
+ * Append a correct bootstrap class to tables created by markdown
+ */
 function fixTable() {
   $("table")
     .addClass("table")
     .addClass("table-hover");
 }
 
+/**
+ * Hide/Show a `scroll to top` button according to the user scroll position
+ */
 function initTopButton() {
   const scrollBtn = $("#scroll-top");
   scrollBtn.hide();
