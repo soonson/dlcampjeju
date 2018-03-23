@@ -37,7 +37,7 @@ that come from various backgrounds but all interested in practicing and advancin
 ## Why Jeju?
 
 - No visa is required for most international visitors to stay up to 30 days
-- Jeju is a beautiful island, frequently referred to as the "Hawaii" in Asia
+- Jeju is a beautiful island, often referred to as the "Hawaii" in Asia
 
 
 # Application
